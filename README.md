@@ -1,9 +1,9 @@
 # Startup Landing Page 🚀
 
-## Light Mode
+## Light Mode 🌞
 ![App Screenshot](https://github.com/lyrarod/startup-dev/blob/main/public/light-screenshot.png)
 
-## Dark Mode
+## Dark Mode 🌜
 ![App Screenshot](https://github.com/lyrarod/startup-dev/blob/main/public/dark-screenshot.png)
 
 ## Stack utilizada
