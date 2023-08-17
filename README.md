@@ -1,4 +1,4 @@
-# Startup Landing Page 🤡
+# Startup Landing Page 🚀
 
 ![App Screenshot](https://github.com/lyrarod/startup-dev/blob/main/public/light-screenshot.png)
 ![App Screenshot](https://github.com/lyrarod/startup-dev/blob/main/public/dark-screenshot.png)
@@ -7,7 +7,7 @@
 
 **Biblioteca / Framework:** React & Next.js
 
-**Estilização:** Tailwind CSS
+**Estilização:** Tailwind CSS, shadcn/ui, Framer Motion
 
 **Deploy:** Vercel
 
