@@ -13,6 +13,7 @@
 
 ## Funcionalidades
 
+- Dark & Light Mode
 - One Page Website
 - Responsive Website
 - Smooth Scrolling Effect
