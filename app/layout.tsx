@@ -7,8 +7,8 @@ import { Footer } from "@/components/Footer";
 import { ThemeProvider } from "@/components/theme-provider";
 
 export const metadata: Metadata = {
-  title: "Startup Development",
-  description: "Startup Development",
+  title: "Startup Landing Page",
+  description: "Startup Landing Page",
 };
 
 const font = Roboto({
