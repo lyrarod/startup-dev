@@ -20,7 +20,7 @@ export function ModeToggle({
 }) {
   const ThemeSwitch = () => {
     const [mounted, setMounted] = useState(false);
-    const { theme, setTheme } = useTheme();
+    const { setTheme, resolvedTheme } = useTheme();
 
     // useEffect only runs on the client, so now we can safely show the UI
     useEffect(() => {
@@ -31,7 +31,7 @@ export function ModeToggle({
       return null;
     }
 
-    return theme === "dark" ? (
+    return resolvedTheme === "dark" ? (
       <Button variant={variant} size={"icon"} onClick={() => setTheme("light")}>
         <Sun />
       </Button>
