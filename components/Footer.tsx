@@ -12,14 +12,23 @@ import {
   FaYoutube,
 } from "react-icons/fa";
 import { Link } from "react-scroll";
+import { LuRocket } from "react-icons/lu";
 
 export const Footer = () => {
   return (
     <footer className="w-full bg-whitesmoke dark:bg-black-111">
       <div className="container px-4 xl:px-0 py-10 flex flex-col md:flex-row md:justify-between">
         <div className="flex flex-col gap-y-4 py-6 sm:py-0 w-full md:max-w-[30%]">
-          <strong className="font-['Permanent_Marker',cursive] text-3xl text-primary">
-            logo
+          <strong className={`nav-logo`}>
+            <Link
+              to="hero"
+              smooth={true}
+              duration={250}
+              className="text-2xl xl:text-4xl cursor-default lg:cursor-pointer flex items-center gap-x-2"
+            >
+              <LuRocket className="text-3xl xl:text-5xl text-primary" />
+              Startup.
+            </Link>
           </strong>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,

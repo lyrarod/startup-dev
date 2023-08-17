@@ -6,6 +6,7 @@ import { LuMenu, LuX } from "react-icons/lu";
 import { motion } from "framer-motion";
 import { ModeToggle } from "./ModeToggle";
 import { Link } from "react-scroll";
+import { LuRocket } from "react-icons/lu";
 
 export const navLinks = [
   ["Home", "hero"],
@@ -43,9 +44,10 @@ export function Navigation() {
             to="hero"
             smooth={true}
             duration={250}
-            className="text-2xl xl:text-4xl cursor-default lg:cursor-pointer"
+            className="text-2xl xl:text-4xl cursor-default lg:cursor-pointer flex items-center gap-x-2"
           >
-            Logo.
+            <LuRocket className="text-3xl xl:text-5xl text-primary" />
+            Startup.
           </Link>
         </motion.strong>
 

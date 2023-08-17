@@ -75,14 +75,6 @@
     @apply border-border;
   }
 
-  /* body {
-    @apply bg-background text-foreground;
-  } */
-
-  /* html {
-    @apply scroll-smooth;
-  } */
-
   body {
     @apply text-black-111 bg-white dark:text-white dark:bg-black antialiased;
   }
@@ -145,7 +137,7 @@
 .nav-logo {
   user-select: none;
   transition: font-size 0.2s;
-  font-family: "Permanent Marker", cursive;
+  /* font-family: "Permanent Marker", cursive; */
 }
 
 .title__hero {
